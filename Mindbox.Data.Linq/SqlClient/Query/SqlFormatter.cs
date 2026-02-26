@@ -1,12 +1,7 @@
-using System;
 using System.Globalization;
 using System.Collections.Generic;
-using System.Data;
 using System.Text;
 using System.Data.Linq.Mapping;
-using System.Data.Linq.Provider;
-using System.Linq;
-using System.Data.SqlClient;
 using System.Diagnostics.CodeAnalysis;
 
 namespace System.Data.Linq.SqlClient

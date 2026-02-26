@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Data.Linq;
-
 namespace System.Data.Linq.SqlClient
 {
     internal class SqlAliaser

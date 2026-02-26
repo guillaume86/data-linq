@@ -1,18 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Data.Common;
 using System.Data.Linq.Mapping;
 using System.Linq.Expressions;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Xml;
-using System.Transactions;
 using System.Data.Linq.Provider;
 using System.Diagnostics.CodeAnalysis;
 

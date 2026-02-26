@@ -1,13 +1,9 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 
 namespace System.Data.Linq.SqlClient
 {
     using System.Data.Linq.Mapping;
-    using System.Data.Linq.Provider;
-    using System.Diagnostics.CodeAnalysis;
     using System.Linq.Expressions;
 
     // moves order-by clauses from sub-queries to outer-most or top selects

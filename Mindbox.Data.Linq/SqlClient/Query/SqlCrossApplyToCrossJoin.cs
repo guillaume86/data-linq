@@ -1,12 +1,7 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
 
 namespace System.Data.Linq.SqlClient
 {
-    using System.Data.Linq;
-
     /// <summary>
     /// Turn CROSS APPLY into CROSS JOIN when the right side 
     /// of the apply doesn't reference anything on the left side.

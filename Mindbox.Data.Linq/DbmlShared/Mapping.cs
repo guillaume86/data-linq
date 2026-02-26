@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Linq;
 using System.Data.Linq.Mapping;
-using System.Globalization;
 
 namespace LinqToSqlShared.Mapping
 {

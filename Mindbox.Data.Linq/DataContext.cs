@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -7,7 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using System.Text;
 using System.Data.Linq.Mapping;
 using System.Data.Linq.Provider;
 
@@ -52,7 +50,6 @@ namespace System.Data.Linq
         private bool disposed;
         private bool isInSubmitChanges;
         private DataLoadOptions loadOptions;
-        private string statementsLabel;
         private ChangeConflictCollection conflicts;
 
         public DataContext(string fileOrServerOrConnection)

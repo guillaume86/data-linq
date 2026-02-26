@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
 
 namespace System.Data.Linq
 {
@@ -22,7 +20,6 @@ namespace System.Data.Linq
         private bool isLoaded;
         private bool listChanged;
         private IBindingList cachedList;
-        private EventHandler listChanging;
 
 
         public EntitySet()
@@ -151,6 +148,8 @@ namespace System.Data.Linq
         {
             get { return true; }
         }
+
+        public event EventHandler ListChanging;
 
         public event ListChangedEventHandler ListChanged;
 
@@ -510,8 +509,8 @@ namespace System.Data.Linq
 
         private void OnListChanging()
         {
-            if (listChanging != null)
-                listChanging(this, EventArgs.Empty);
+            if (ListChanging != null)
+                ListChanging(this, EventArgs.Empty);
         }
 
         private void OnListChanged(ListChangedType type, int index)

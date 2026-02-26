@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -9,7 +8,6 @@ namespace System.Data.Linq
 {
     using System.Data.Linq.Logging;
     using System.Data.Linq.Mapping;
-    using System.Data.Linq.Provider;
 
     /// <summary>
     /// Describes the type of change the entity will undergo when submitted to the database.

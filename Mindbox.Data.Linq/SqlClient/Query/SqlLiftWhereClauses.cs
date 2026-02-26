@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Data.Linq.Mapping;
-using System.Data.Linq.Provider;
 
 namespace System.Data.Linq.SqlClient
 {

@@ -1,15 +1,10 @@
-using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 using System.Linq.Expressions;
-using System.Diagnostics;
-using System.Data;
 
 namespace System.Data.Linq.SqlClient
 {
     using System.Data.Linq.Mapping;
-    using System.Data.Linq.Provider;
     using System.Diagnostics.CodeAnalysis;
 
     internal enum SqlNodeType

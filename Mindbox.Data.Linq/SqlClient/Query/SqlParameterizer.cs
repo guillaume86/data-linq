@@ -1,9 +1,6 @@
-using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.Linq.Mapping;
-using System.Data.Linq.Provider;
-using System.Linq.Expressions;
 using System.Diagnostics.CodeAnalysis;
 
 namespace System.Data.Linq.SqlClient

@@ -104,7 +104,7 @@ namespace System.Data.Linq.Mapping
         private readonly object metaDataMemberLock = new object(); // Hold locks on private object rather than public MetaType.
         private bool hasLoadMethod;
         private MethodInfo loadMethod;
-        private bool databaseIsMigrated;
+        //private bool databaseIsMigrated;
 
 
         internal AttributedMetaDataMember(AttributedMetaType metaType, MemberInfo member, int ordinal)
@@ -261,8 +261,8 @@ namespace System.Data.Linq.Mapping
 
         public override string DbType => columnAttribute == null
             ? null
-            : databaseIsMigrated
-                ? columnAttribute.DbTypeAfterDatabaseMigration ?? columnAttribute.DbType
+            //: databaseIsMigrated
+                //? columnAttribute.DbTypeAfterDatabaseMigration ?? columnAttribute.DbType
                 : columnAttribute.DbType;
 
         public override string Expression => columnAttribute?.Expression;

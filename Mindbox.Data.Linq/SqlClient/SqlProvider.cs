@@ -1,14 +1,12 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
-using System.Data.Linq;
 using System.Data.Linq.Mapping;
 using System.Data.Linq.Provider;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -1119,7 +1117,7 @@ namespace System.Data.Linq.SqlClient
                     {
                         scale = (int)Convert.ChangeType(piScale.GetValue(p, null), typeof(int), CultureInfo.InvariantCulture);
                     }
-                    var sp = p as System.Data.SqlClient.SqlParameter;
+                    var sp = p as Microsoft.Data.SqlClient.SqlParameter;
                     writer.WriteLine("-- {0}: {1} {2} (Size = {3}; Prec = {4}; Scale = {5}) [{6}]",
                         p.ParameterName,
                         p.Direction,

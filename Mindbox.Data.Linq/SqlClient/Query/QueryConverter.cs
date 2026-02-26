@@ -1,16 +1,11 @@
-﻿using System;
-using System.Globalization;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Reflection;
-using System.Text;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Data.Linq;
 using System.Data.Linq.Mapping;
 using System.Data.Linq.Provider;
-using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
 
 namespace System.Data.Linq.SqlClient

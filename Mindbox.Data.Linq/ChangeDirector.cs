@@ -1,12 +1,8 @@
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Text;
 using System.Reflection;
 using System.Linq;
-using System.Security.Permissions;
-using System.Security;
 
 namespace System.Data.Linq
 {

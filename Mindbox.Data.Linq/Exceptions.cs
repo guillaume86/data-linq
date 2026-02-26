@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Data.Linq.Provider;
-using System.Linq;
 using System.Diagnostics.CodeAnalysis;
 
 namespace System.Data.Linq

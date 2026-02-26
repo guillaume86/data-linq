@@ -1,5 +1,4 @@
 using System.Collections.ObjectModel;
-using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
 namespace System.Data.Linq.Mapping

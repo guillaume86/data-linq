@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Reflection;
 using System.Linq;
 using System.Diagnostics;
@@ -10,7 +9,6 @@ using System.Diagnostics;
 namespace System.Data.Linq
 {
     using System.Data.Linq.Mapping;
-    using System.Data.Linq.Provider;
     using System.Diagnostics.CodeAnalysis;
 
     public sealed class ChangeConflictCollection : ICollection<ObjectChangeConflict>, ICollection, IEnumerable<ObjectChangeConflict>, IEnumerable

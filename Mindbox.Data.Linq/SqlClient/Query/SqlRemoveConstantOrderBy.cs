@@ -1,13 +1,7 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Data;
 
 namespace System.Data.Linq.SqlClient
 {
-    using System.Data.Linq;
-
     /// <summary>
     /// SQL doesn't allow constants in ORDER BY.
     /// 

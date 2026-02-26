@@ -1,17 +1,10 @@
-using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Data.SqlClient;
 using System.IO;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
 using System.Text;
 
 namespace System.Data.Linq.SqlClient
 {
     using System.Data.Linq.Mapping;
-    using System.Data.Linq.Provider;
     using System.Diagnostics.CodeAnalysis;
 
     /// <summary>
